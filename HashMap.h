@@ -16,7 +16,7 @@ class HashMap
 {
 private:
 
-    HashNode arr[][];  //**arr //2D array of hash elements
+    HashNode **arr;  //**arr //2D array of hash elements
     int cap;
 
     int size; //current size

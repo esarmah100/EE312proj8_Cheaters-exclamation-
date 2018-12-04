@@ -1,7 +1,7 @@
 //
 // Created by Devina Parihar on 12/3/2018.
 //
-
+/*
 #include <sys/types.h>
 #include <dirent.h>
 #include <errno.h>
@@ -59,3 +59,4 @@ int main(int argc, char *argv[]){
 
 int hash();
 
+*/

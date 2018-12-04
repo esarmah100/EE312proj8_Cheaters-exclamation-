@@ -30,10 +30,10 @@ int getdir (string dir, vector<string> &files)
     closedir(dp);
     return 0;
 }
-/*
+
 int main()
 {
-    string dir = string("sm_doc_set");
+    string dir = string("C:\\Users\\esarmah100\\EE312\\GitHub\\EE312proj8_Cheaters-exclamation-\\sm_doc_set");
     vector<string> files = vector<string>();
 
     getdir(dir,files);
@@ -44,4 +44,3 @@ int main()
     return 0;
 }
 
- */
