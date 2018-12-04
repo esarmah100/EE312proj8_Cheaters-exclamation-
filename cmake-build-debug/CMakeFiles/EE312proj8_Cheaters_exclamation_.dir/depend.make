@@ -3,3 +3,6 @@
 
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj: ../fileopen.cpp
 
+CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj: ../fileopen.cpp
+CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj: ../plagiarismChecker.cpp
+

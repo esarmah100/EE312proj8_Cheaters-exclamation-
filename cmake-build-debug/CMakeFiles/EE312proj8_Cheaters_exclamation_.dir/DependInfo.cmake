@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/fileopen.cpp" "C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj"
+  "C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/fileopen.cpp" "C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj"
+  "C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/plagiarismChecker.cpp" "C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
+  "../.idea"
   "."
   )
 

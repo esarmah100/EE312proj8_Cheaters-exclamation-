@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-
+CMAKE_SOURCE_DIR = "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles" "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ fileopen.cpp.s:
 	$(MAKE) -f CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\build.make CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.s
 .PHONY : fileopen.cpp.s
 
+plagiarismChecker.obj: plagiarismChecker.cpp.obj
+
+.PHONY : plagiarismChecker.obj
+
+# target to build an object file
+plagiarismChecker.cpp.obj:
+	$(MAKE) -f CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\build.make CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj
+.PHONY : plagiarismChecker.cpp.obj
+
+plagiarismChecker.i: plagiarismChecker.cpp.i
+
+.PHONY : plagiarismChecker.i
+
+# target to preprocess a source file
+plagiarismChecker.cpp.i:
+	$(MAKE) -f CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\build.make CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.i
+.PHONY : plagiarismChecker.cpp.i
+
+plagiarismChecker.s: plagiarismChecker.cpp.s
+
+.PHONY : plagiarismChecker.s
+
+# target to generate assembly for a file
+plagiarismChecker.cpp.s:
+	$(MAKE) -f CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\build.make CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.s
+.PHONY : plagiarismChecker.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... fileopen.obj
 	@echo ... fileopen.i
 	@echo ... fileopen.s
+	@echo ... plagiarismChecker.obj
+	@echo ... plagiarismChecker.i
+	@echo ... plagiarismChecker.s
 .PHONY : help
 
 

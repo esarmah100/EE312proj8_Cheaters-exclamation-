@@ -8,24 +8,25 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="EE312proj8_Cheaters_exclamation_">
-				<Option output="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/EE312proj8_Cheaters_exclamation_.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
+				<Option output="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/EE312proj8_Cheaters_exclamation_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/."/>
-					<Add directory="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
+					<Add directory="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/."/>
+					<Add directory="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea"/>
+					<Add directory="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -35,21 +36,22 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 EE312proj8_Cheaters_exclamation_"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 EE312proj8_Cheaters_exclamation_"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="EE312proj8_Cheaters_exclamation_/fast">
-				<Option output="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/EE312proj8_Cheaters_exclamation_.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
+				<Option output="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/EE312proj8_Cheaters_exclamation_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/."/>
-					<Add directory="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
+					<Add directory="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/."/>
+					<Add directory="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea"/>
+					<Add directory="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -59,61 +61,82 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 EE312proj8_Cheaters_exclamation_/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 EE312proj8_Cheaters_exclamation_/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/.idea/.name">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea/.name">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/.idea/EE312proj8_Cheaters-exclamation-.iml">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea/EE312proj8_Cheaters-exclamation-.iml">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/.idea/codeStyles/Project.xml">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea/codeStyles/Project.xml">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/.idea/misc.xml">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea/misc.xml">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/.idea/modules.xml">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea/modules.xml">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/.idea/vcs.xml">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea/vcs.xml">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/.idea/workspace.xml">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/.idea/workspace.xml">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/CMakeCache.txt">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/HashMap.h">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/fileopen.cpp">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/HashNode.h">
 			<Option target="EE312proj8_Cheaters_exclamation_"/>
 		</Unit>
-		<Unit filename="C:/Users/esarmah100/EE312/GitHub/EE312proj8_Cheaters-exclamation-/CMakeLists.txt">
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/CMakeCache.txt">
+			<Option target="EE312proj8_Cheaters_exclamation_"/>
+		</Unit>
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/EE312proj8_Cheaters_exclamation_.cbp">
+			<Option target="EE312proj8_Cheaters_exclamation_"/>
+		</Unit>
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/EE312proj8_Cheaters_exclamation_.exe">
+			<Option target="EE312proj8_Cheaters_exclamation_"/>
+		</Unit>
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/Makefile">
+			<Option target="EE312proj8_Cheaters_exclamation_"/>
+		</Unit>
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/cmake-build-debug/cmake_install.cmake">
+			<Option target="EE312proj8_Cheaters_exclamation_"/>
+		</Unit>
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/fileopen.cpp">
+			<Option target="EE312proj8_Cheaters_exclamation_"/>
+		</Unit>
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/plagiarismChecker.cpp">
+			<Option target="EE312proj8_Cheaters_exclamation_"/>
+		</Unit>
+		<Unit filename="C:/Users/Devina Parihar/Documents/GitHub/EE312proj8_Cheaters-exclamation-/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

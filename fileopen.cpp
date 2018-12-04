@@ -4,12 +4,16 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <fstream>
+#include <string.h>
+
 
 using namespace std;
 
 /*function... might want it in some class?*/
 int getdir (string dir, vector<string> &files)
 {
+    ifstream inFile;
     DIR *dp;
     struct dirent *dirp;
     if((dp  = opendir(dir.c_str())) == NULL) {
@@ -18,12 +22,15 @@ int getdir (string dir, vector<string> &files)
     }
 
     while ((dirp = readdir(dp)) != NULL) {
-        files.push_back(string(dirp->d_name));
+        if (strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") !=0) {
+           inFile.open(dirp->d_name);
+           files.push_back(string(dirp->d_name));
+        }
     }
     closedir(dp);
     return 0;
 }
-
+/*
 int main()
 {
     string dir = string("sm_doc_set");
@@ -36,3 +43,5 @@ int main()
     }
     return 0;
 }
+
+ */
