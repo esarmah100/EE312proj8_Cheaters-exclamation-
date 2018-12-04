@@ -12,8 +12,11 @@
 #include <string.h>
 #include <queue>
 #include "fileopen.cpp"
+#include <locale>
 
 using namespace std;
+
+string chunkFormatter(vector<string> v);
 
 
 int main(int argc, char *argv[]){
@@ -34,13 +37,13 @@ int main(int argc, char *argv[]){
 
     int n  = atoi(argv[2]);     //n is number of word chunks specified by user
 
-    queue <string> wordChunks;
+    vector <string> wordChunks;
     string word;
     int count = 0;
 
 
     for(unsigned int i = 0; i< 3; i++){
-        string fileName = "sm_doc_set/" + files[i];
+        string fileName = "sm_doc_set/" + files[i];         //change to argv[1]
         inFile.open(fileName.c_str());
         if(!inFile)
             cout << "error opening the file" << endl;
@@ -49,15 +52,30 @@ int main(int argc, char *argv[]){
             {
                 if(count == n)
                     break;
-                wordChunks.push(word);
+                wordChunks.push_back(word);
                 count++;
             }
+
+            string key = chunkFormatter(wordChunks);
+
 
 
     }
 
     inFile.close();
 
+}
+
+string chunkFormatter(vector<string> v){
+
+    string s;
+    for(int i = 0; i < v.size(); i++){
+        s = s + v.back();                   //concatenate
+        v.pop_back();
+    }
+    locale loc;
+    for(int i = 0; i < v.size(); i++)       //change to lowercase
+        tolower(v[i], loc);
 
 
 }

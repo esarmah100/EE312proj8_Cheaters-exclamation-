@@ -55,8 +55,8 @@ public:
 
         return sum;
 
-
     }
+
 
     void insertNode(string key, int fileIndex){
         HashNode *temp = new HashNode();
@@ -74,34 +74,6 @@ public:
 
 
     }
-/*
-    int deleteNode(string key){
-        int hashIndex = hashFunc(key, tableSize);
-
-        //finding the node with given key
-        while(arr[hashIndex] != NULL)
-        {
-            //if node found
-            if(arr[hashIndex]->key == key)
-            {
-                HashNode *temp = arr[hashIndex];
-
-                //Insert dummy node here for further use
-                arr[hashIndex] = p1;
-
-                // Reduce size
-                size--;
-                return temp->value;
-            }
-            hashIndex++;
-            hashIndex %= cap;
-
-        }
-
-        return NULL;
-    }
-
-*/
 
 /*
 
