@@ -15,12 +15,13 @@ class HashNode
 {
 public:
     int value;
-    int key;
+    HashNode *next;
 
-    HashNode(int key, int value)
+    HashNode()
     {
-        this->value = value;
-        this->key = key;
+        this->value = NULL;
+        next = NULL;
+
     }
 
 

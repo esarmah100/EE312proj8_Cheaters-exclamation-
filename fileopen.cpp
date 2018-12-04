@@ -31,16 +31,4 @@ int getdir (string dir, vector<string> &files)
     return 0;
 }
 
-int main()
-{
-    string dir = string("C:\\Users\\esarmah100\\EE312\\GitHub\\EE312proj8_Cheaters-exclamation-\\sm_doc_set");
-    vector<string> files = vector<string>();
-
-    getdir(dir,files);
-
-    for (unsigned int i = 0;i < files.size();i++) {
-        cout << i << files[i] << endl;
-    }
-    return 0;
-}
 

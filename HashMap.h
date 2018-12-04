@@ -9,6 +9,7 @@
 #include <string>
 #include <vector>
 #include <HashNode.h>
+#include <cmath>
 
 using namespace std;
 
@@ -16,55 +17,66 @@ class HashMap
 {
 private:
 
-    HashNode **arr;  //**arr //2D array of hash elements
-    int cap;
+    HashNode **arr;  //**arr // array of linked lists of hash elements
+    string key;
+    int tableSize;
 
     int size; //current size
 
-    HashNode *p1; //dummy node???
 
 public:
-    HashMap(int cap, int size){
-        this->cap = cap;
-        this->size  = size;
-        arr = new HashNode *[cap];
+    HashMap(string key){
+        this->tableSize = 24103;            //big prime number for tableSize //prime aournd 24000
+        this->size  = 0;
+        this->key = key;
+
+        arr = new HashNode *[tableSize];
 
         //initialising elements to NULL
-        for(int i = 0; i < cap; i++)
+        for(int i = 0; i < tableSize; i++)
             arr[i] = NULL;
 
-        p1 = new HashNode(-1, -1);  //dummy hashNode
     }
 
-    int hashFunc(int key){
+    unsigned long int hashFunc(const string & key, int tableSize ){
 
-        return key % cap;
+        int keySize = key.size();
+        long unsigned int sum = 0;
+        for(int i = 0; i < keySize -1; i++){
+            if(keySize > 28){
+                sum = sum + key[keySize-i-1]*(pow(11, i));
+
+            }
+            else
+            sum = sum + key[keySize-i-1]*(pow(37, i));
+        }
+
+        sum = sum % tableSize;
+
+        return sum;
+
+
     }
 
-    void insertNode(int key, int value){
-        HashNode *temp = new HashNode(key, value);
+    void insertNode(string key, int fileIndex){
+        HashNode *temp = new HashNode();
+
 
         //use hash function to get index for key
-        int hashIndex = hashFunc(key);
+        int hashIndex = hashFunc(key, tableSize);
 
-        //find next free space
-        while(arr[hashIndex] !=NULL && arr[hashIndex]->key != key
-                && arr[hashIndex]->key !=-1)
-        {
-            hashIndex++;
-            hashIndex = hashIndex%cap;  //??
-        }
+        temp->value = fileIndex;
+        temp->next = arr[hashIndex];
 
-        //adding a node, increase current size by one
-        if(arr[hashIndex] == NULL || arr[hashIndex]->key == -1) {
-            size++;
-        }
         arr[hashIndex] = temp;
 
-    }
+        delete(temp);
 
-    int deleteNode(int key){
-        int hashIndex = hashFunc(key);
+
+    }
+/*
+    int deleteNode(string key){
+        int hashIndex = hashFunc(key, tableSize);
 
         //finding the node with given key
         while(arr[hashIndex] != NULL)
@@ -88,6 +100,10 @@ public:
 
         return NULL;
     }
+
+*/
+
+/*
 
     int findIndexVal(int key){
         int hashIndex = hashFunc(key);
@@ -116,9 +132,7 @@ public:
 
     }
 
-
-
-
+*/
 
 
 

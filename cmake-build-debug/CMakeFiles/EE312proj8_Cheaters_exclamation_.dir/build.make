@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-
+CMAKE_SOURCE_DIR = "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/depend.make
@@ -59,30 +59,30 @@ include CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/flags.make
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj: CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/flags.make
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj: CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/includes_CXX.rsp
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj: ../fileopen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\fileopen.cpp.obj -c C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\fileopen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\fileopen.cpp.obj -c "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\fileopen.cpp"
 
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\fileopen.cpp > CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\fileopen.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\fileopen.cpp" > CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\fileopen.cpp.i
 
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/fileopen.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\fileopen.cpp -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\fileopen.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\fileopen.cpp" -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\fileopen.cpp.s
 
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj: CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/flags.make
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj: CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/includes_CXX.rsp
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj: ../plagiarismChecker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\plagiarismChecker.cpp.obj -c C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\plagiarismChecker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\plagiarismChecker.cpp.obj -c "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\plagiarismChecker.cpp"
 
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\plagiarismChecker.cpp > CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\plagiarismChecker.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\plagiarismChecker.cpp" > CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\plagiarismChecker.cpp.i
 
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/plagiarismChecker.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\plagiarismChecker.cpp -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\plagiarismChecker.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\plagiarismChecker.cpp" -o CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\plagiarismChecker.cpp.s
 
 # Object files for target EE312proj8_Cheaters_exclamation_
 EE312proj8_Cheaters_exclamation__OBJECTS = \
@@ -98,7 +98,7 @@ EE312proj8_Cheaters_exclamation_.exe: CMakeFiles/EE312proj8_Cheaters_exclamation
 EE312proj8_Cheaters_exclamation_.exe: CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/linklibs.rsp
 EE312proj8_Cheaters_exclamation_.exe: CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/objects1.rsp
 EE312proj8_Cheaters_exclamation_.exe: CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable EE312proj8_Cheaters_exclamation_.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable EE312proj8_Cheaters_exclamation_.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +111,6 @@ CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/clean:
 .PHONY : CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/clean
 
 CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation- C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation- C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug C:\Users\esarmah100\EE312\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-" "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-" "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug" "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug" "C:\Users\Devina Parihar\Documents\GitHub\EE312proj8_Cheaters-exclamation-\cmake-build-debug\CMakeFiles\EE312proj8_Cheaters_exclamation_.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/EE312proj8_Cheaters_exclamation_.dir/depend
 

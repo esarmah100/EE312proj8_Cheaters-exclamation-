@@ -1,7 +1,7 @@
 //
 // Created by Devina Parihar on 12/3/2018.
 //
-/*
+
 #include <sys/types.h>
 #include <dirent.h>
 #include <errno.h>
@@ -18,10 +18,7 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 
-
-    //opening files/////
-
-    string dir = string("sm_doc_set");
+    string dir = string("C:\\Users\\Devina Parihar\\Documents\\GitHub\\EE312proj8_Cheaters-exclamation-\\sm_doc_set");
     vector<string> files = vector<string>();
 
     getdir(dir,files);
@@ -30,33 +27,38 @@ int main(int argc, char *argv[]){
         cout << i << files[i] << endl;
     }
 
+
+    //for arg stuff?
+
     ifstream inFile;
-    string store;
-    vector<string> word;
+
+    int n  = atoi(argv[2]);     //n is number of word chunks specified by user
+
+    queue <string> wordChunks;
+    string word;
+    int count = 0;
+
 
     for(unsigned int i = 0; i< 3; i++){
         string fileName = "sm_doc_set/" + files[i];
-        inFile.open(fileName);
+        inFile.open(fileName.c_str());
         if(!inFile)
             cout << "error opening the file" << endl;
+        else
+            while(inFile >> word)
+            {
+                if(count == n)
+                    break;
+                wordChunks.push(word);
+                count++;
+            }
 
-    }
 
-    while(inFile >> store){
-        word.push_back(store);
     }
 
     inFile.close();
 
 
 
-    int n  = atoi(argv[2]);     //n is number of word chunks specified by user
-
-    queue <string> wordChunks;
-
-
 }
 
-int hash();
-
-*/
