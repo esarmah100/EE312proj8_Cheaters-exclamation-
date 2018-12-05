@@ -1,3 +1,4 @@
+/*
 #include <sys/types.h>
 #include <dirent.h>
 #include <errno.h>
@@ -10,7 +11,7 @@
 
 using namespace std;
 
-/*function... might want it in some class?*/
+//function... might want it in some class?
 int getdir (string dir, vector<string> &files)
 {
     ifstream inFile;
@@ -32,3 +33,4 @@ int getdir (string dir, vector<string> &files)
 }
 
 
+*/

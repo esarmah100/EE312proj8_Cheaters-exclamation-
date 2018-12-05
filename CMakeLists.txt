@@ -16,9 +16,7 @@ add_executable(EE312proj8_Cheaters_exclamation_
         .idea/vcs.xml
         .idea/workspace.xml
         cmake-build-debug/cmake_install.cmake
-        cmake-build-debug/CMakeCache.txt
         cmake-build-debug/EE312proj8_Cheaters_exclamation_.cbp
-        cmake-build-debug/EE312proj8_Cheaters_exclamation_.exe
         cmake-build-debug/Makefile
         fileopen.cpp
         HashMap.h

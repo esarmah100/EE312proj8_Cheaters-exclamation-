@@ -11,22 +11,59 @@
 #include <fstream>
 #include <string.h>
 #include <queue>
-#include "fileopen.cpp"
+//#include "fileopen.cpp"
 #include <locale>
 
 using namespace std;
 
 string chunkFormatter(vector<string> v);
 
+int getdir (string dir, vector<string> &files)
+{
+    ifstream inFile;
+    DIR *dp;
+    struct dirent *dirp;
+    if((dp  = opendir(dir.c_str())) == NULL) {
+        cout << "Error(" << errno << ") opening " << dir << endl;
+        return errno;
+    }
 
-int main(int argc, char *argv[]){
+    while ((dirp = readdir(dp)) != NULL) {
+        if (strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") !=0) {
+            inFile.open(dirp->d_name);
+            files.push_back(string(dirp->d_name));
+        }
+    }
+    closedir(dp);
+    return 0;
+}
 
-    string dir = string("C:\\Users\\Devina Parihar\\Documents\\GitHub\\EE312proj8_Cheaters-exclamation-\\sm_doc_set");
-    vector<string> files = vector<string>();
+string chunkFormatter(string key){
 
-    getdir(dir,files);
+    std::locale loc;
+    for(std::string::size_type i = 0; i < key.length(); i++) {   //change to lowercase
+        key[i] = std::tolower(key[i], loc);
+    }
 
-    for (unsigned int i = 0;i < files.size();i++) {
+    for (int j = 0, length =  key.size(); j < length; j ++){        //remove punctuation
+        if (key[j]  ==  46 || key[j] == 45 || key[j] == 44 || key [j] == 96 || key[j] == 63){
+            key.erase(j--, 1);
+            length = key.size();
+        }
+    }
+    cout << key << endl;
+    return key;
+
+}
+
+int main(int argc, char *argv[]) {
+
+    string dir = string("C:\\Users\\esarmah100\\EE312\\GitHub\\EE312proj8_Cheaters-exclamation-\\sm_doc_set");
+    vector <string> files = vector<string>();
+
+    getdir(dir, files);
+
+    for (unsigned int i = 0; i < files.size(); i++) {
         cout << i << files[i] << endl;
     }
 
@@ -35,48 +72,70 @@ int main(int argc, char *argv[]){
 
     ifstream inFile;
 
-    int n  = atoi(argv[2]);     //n is number of word chunks specified by user
+    //int n  = atoi(argv[2]);     //n is number of word chunks specified by user
+    int n = 6;
 
-    vector <string> wordChunks;
+    //vector <string> wordChunks;
+    queue<string> wordChunks;
+    queue<string> currentChunk;
     string word;
     int count = 0;
 
 
-    for(unsigned int i = 0; i< 3; i++){
-        string fileName = "sm_doc_set/" + files[i];         //change to argv[1]
+    for (unsigned int i = 0; i < 3; i++) {
+        //string fileName = "sm_doc_set\\" + files[i];         //change to argv[1]
+        string fileName =
+                "C:\\Users\\esarmah100\\EE312\\GitHub\\EE312proj8_Cheaters-exclamation-\\sm_doc_set\\" + files[i];
         inFile.open(fileName.c_str());
-        if(!inFile)
+        if (!inFile)
             cout << "error opening the file" << endl;
         else
-            while(inFile >> word)
-            {
-                if(count == n)
+            /*
+            while (inFile >> word) {
+                if (count == n)
                     break;
-                wordChunks.push_back(word);
+                wordChunks.push(word);
                 count++;
+                */
+           for (int j = 0; j < n; j++) {
+               if (inFile >> word) {
+                   wordChunks.push(word);
+                   currentChunk.push(word);
+                   count++;
+               }
+           }
+
+        string key;
+        for (int j = 0; j < count; j++) {
+            key += wordChunks.front();   //concatenate
+            wordChunks.pop();
+        }
+            key = chunkFormatter(key);
+
+
+        if (inFile >> word) {
+            currentChunk.push(word);
+            currentChunk.pop();
+            wordChunks = currentChunk;
+            key = "";
+
+            for (int j = 0; j < count; j++) {
+
+                key += wordChunks.front();   //concatenate
+                wordChunks.pop();
             }
+            key = chunkFormatter(key);
 
-            string key = chunkFormatter(wordChunks);
-
-
+        }
 
     }
 
-    inFile.close();
+        inFile.close();
 
 }
 
-string chunkFormatter(vector<string> v){
-
-    string s;
-    for(int i = 0; i < v.size(); i++){
-        s = s + v.back();                   //concatenate
-        v.pop_back();
-    }
-    locale loc;
-    for(int i = 0; i < v.size(); i++)       //change to lowercase
-        tolower(v[i], loc);
 
 
-}
+
+
 
