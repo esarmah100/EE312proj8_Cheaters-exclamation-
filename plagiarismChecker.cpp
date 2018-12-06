@@ -13,6 +13,7 @@
 #include <queue>
 //#include "fileopen.cpp"
 #include <locale>
+#include <iomanip>
 
 using namespace std;
 
@@ -104,20 +105,23 @@ int main(int argc, char *argv[]) {
                    count++;
                }
            }
-
+    //while (inFile >> word) {
         string key;
+
+        //wordChunks = currentChunk;
+
         for (int j = 0; j < count; j++) {
             key += wordChunks.front();   //concatenate
             wordChunks.pop();
         }
-            key = chunkFormatter(key);
+        key = chunkFormatter(key);
 
+        while (inFile >> word) {
 
-        if (inFile >> word) {
-            currentChunk.push(word);
-            currentChunk.pop();
-            wordChunks = currentChunk;
-            key = "";
+        currentChunk.push(word);
+        currentChunk.pop();
+        wordChunks = currentChunk;
+        key = "";
 
             for (int j = 0; j < count; j++) {
 
@@ -125,8 +129,7 @@ int main(int argc, char *argv[]) {
                 wordChunks.pop();
             }
             key = chunkFormatter(key);
-
-        }
+    }
 
     }
 
